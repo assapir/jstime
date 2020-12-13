@@ -34,7 +34,7 @@ fn setup() -> SetupGuard {
 }
 
 #[cfg(test)]
-mod tests {
+mod api {
     use super::*;
     #[test]
     fn run_script() {
